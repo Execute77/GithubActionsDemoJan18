@@ -1,0 +1,14 @@
+name: First workflow
+
+on:
+  workflow-dispatch:
+  
+jobs:
+  firstjob:
+    runs-on:self-hosted
+    steps:
+     - name: firstjob script
+       shell: bash
+       run: echo Hello world
+        
+  
