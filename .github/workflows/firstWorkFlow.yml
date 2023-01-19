@@ -10,5 +10,7 @@ jobs:
      - name: firstjob script
        shell: bash
        run: echo Hello world
+     - uses: actions/checkout@v3
+     
         
   
